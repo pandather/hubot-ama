@@ -1,19 +1,19 @@
 {
   "name": "hubot-ama",
-  "description": "A hubot script that does the things",
-  "version": "0.0.0",
+  "description": "A hubot package that hosts AMAs",
+  "version": "0.1.0",
   "author": "Gregory Cerna <gregcerna@gmail.com>",
-  "license": "MIT",
+  "license": "GPL V2.0",
 
-  "keywords": ["hubot","hubot-scripts"],
+  "keywords": ["hubot","hubot-ama", "ama", "askmeanything"],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-ama.git"
+    "url": "git://github.com/gregorycerna/hubot-ama.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-ama/issues"
+    "url": "https://github.com/gregorycerna/hubot-ama/issues"
   },
 
   "dependencies": {
@@ -21,19 +21,11 @@
   },
 
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*",
-    "grunt-mocha-test": "~0.7.0",
-    "grunt-release": "~0.6.0",
-    "matchdep": "~0.1.2",
-    "grunt-contrib-watch": "~0.5.3"
   },
 
   "main": "index.coffee",
 
   "scripts": {
-    "test": "grunt test"
+    "test": "script/test"
   }
 }
