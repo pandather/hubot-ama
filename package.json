@@ -3,7 +3,7 @@
   "description": "A hubot package that hosts AMAs",
   "version": "0.1.0",
   "author": "Gregory Cerna <gregcerna@gmail.com>",
-  "license": "GPL V2.0",
+  "license": "GPL-2.0",
 
   "keywords": ["hubot","hubot-ama", "ama", "askmeanything"],
 
