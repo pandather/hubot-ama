@@ -28,4 +28,4 @@ Then add **hubot-ama** to your `external-scripts.json`:
 ["hubot-ama"]
 ```
 
-The plugin by default only works in channels called #bots, for testing, and #ama. To change that, fork the repo and modify ama.coffee. Also, the admins are by default a set of people who have contributed to this in our personal Slack - the only command you need admin abilities is `ama clear`, so it should run fine without modification. Again, to change the admins, simply fork the repo and modify the script.
+The plugin by default only works in channels called #bots, for testing, and #ama. To change that, fork the repo and modify ama.coffee. Also, the admins are by default a set of people who have contributed to this in our personal Slack - the only command you need admin abilities is `ama clear`, so it should run fine without modification, unless you need that specific command (we've only had to use it once, and that was to after some heavy modifications to the script and changed the way we stored the user list). Again, to change the admins, simply fork the repo and modify the script.
