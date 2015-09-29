@@ -51,7 +51,7 @@ class AMAManager
         @robot.brain.emit 'save'
 
     printHelp: (msg) ->
-        msg.send "```
+        msg.send """
                  ama start - pick someone for an AMA and repeat every 24 hours
                  ama stop - stop picking AMAs every 24 hours
                  ama current - display the current AMA celebrity
@@ -61,7 +61,7 @@ class AMAManager
                  ama clear - clears selections (admin only)
                  ama odds - shows odds of each candidate being chosen
                  ama pass - stops the ama and returns the selected candidate's weight to the previous value
-                 ```"
+                 """
 
     pass: (msg) ->
         user = msg.message.user.name
