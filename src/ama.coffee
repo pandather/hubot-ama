@@ -30,9 +30,9 @@ class AMAManager
             }
             @robot.logger.debug "AMA data loaded: " + JSON.stringify(@storage)
 
-        @channels = ["bots", "ama", "roastme", "Shell"] # channels where AMAs can run
+        @channels = ["bots", "ama"] # channels where AMAs can run
 
-        @admins = ["andy", "greg", "stevendiaz", "thomas", "Shell", "samtallent"]
+        @admins = ["Mark"]
         @intervalID = null # if not null, AMAs are currently on
         @current = null # current AMA person
 
