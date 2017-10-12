@@ -5,15 +5,15 @@
   "author": "Gregory Cerna <gregcerna@gmail.com>",
   "license": "GPL-2.0",
 
-  "keywords": ["hubot","hubot-ama", "ama", "askmeanything"],
+  "keywords": ["hubot-ama", "ama", "askmeanything"],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/gregorycerna/hubot-ama.git"
+    "url": "git://github.com/pandather/hubot-ama.git"
   },
 
   "bugs": {
-    "url": "https://github.com/gregorycerna/hubot-ama/issues"
+    "url": "https://github.com/pandather/hubot-ama/issues"
   },
 
   "dependencies": {
